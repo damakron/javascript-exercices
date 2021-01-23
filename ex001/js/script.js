@@ -1,18 +1,18 @@
 document.getElementById("rdbSoma").onclick = function() {
 	let button = window.document.querySelector('input#btnResult')
-	button.setAttribute('value','Somar');
+	button.setAttribute('value', 'Somar');
 }
 document.getElementById("rdbSubtracao").onclick = function() {
 	let button = window.document.querySelector('input#btnResult')
-	button.setAttribute('value','Subtrair');
+	button.setAttribute('value', 'Subtrair');
 }
 document.getElementById("rdbDivisao").onclick = function() {
 	let button = window.document.querySelector('input#btnResult')
-	button.setAttribute('value','Dividir');
+	button.setAttribute('value', 'Dividir');
 }
 document.getElementById("rdbMultiplicacao").onclick = function() {
 	let button = window.document.querySelector('input#btnResult')
-	button.setAttribute('value','Multiplicar');
+	button.setAttribute('value', 'Multiplicar');
 }
 document.getElementById("btnResult").onclick = function() {
 	let n1 = Number(window.document.querySelector('input#txtN1').value)
