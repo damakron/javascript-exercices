@@ -15,7 +15,12 @@
 	align-items: center;
 
 }
-html, body {}
+ body {
+	background-image: url("../imgs/background.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .container input {
 	border-radius: 6px;
 	font-size: 16px;
@@ -35,8 +40,12 @@ html, body {}
 	box-shadow: 2px 2px 4px black;
 	width: 100%;
 }
+.container label {
+	text-shadow: 0.5px 0.5px 2px black;
+}
 .container input[type="radio"]:after {
 	width: 15px;
+	box-shadow: 1px 1px 4px black;
 	height: 15px;
 	border-radius: 15px;
 	background-color: #d1d3d1;
@@ -62,7 +71,7 @@ input[type='radio']:checked:after {
 .box {
 	background: #a880bc;
 	height: 420px;
-	width: 350px;
+	width: 390px;
 	display: flex;
 	border: solid 4px black;
 	padding: 10px;
@@ -83,6 +92,7 @@ input[type='radio']:checked:after {
 	font-family: Helvetica Sans-Serif;
 	padding: 10px;
 	font-size: 24px;
+	text-shadow:  1px 1px 1px black;
 	margin-top: 10px;
 	text-align: center;
 }
@@ -108,5 +118,4 @@ hr {
 .row .imagem img {
 	width: 116px;
 	position: absolute;
-	margin-left: 40px;
 }
